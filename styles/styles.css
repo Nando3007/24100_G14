@@ -1,0 +1,90 @@
+/*
+* {
+    margin: 0;
+}
+*/
+body {
+    background-color: rgb(1, 1, 92);
+    color: aliceblue;
+}
+
+header {
+    padding-left: .5rem;
+    background-color: rgb(36, 36, 153);
+    color: aliceblue;    
+}
+
+.header_title {
+    text-align: center;
+
+}
+
+.upper_navbar {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.lower_navbar {
+    display: flex;
+    justify-content: center;
+
+}
+
+
+/* si funciona */
+.brand {
+    align-content: center;    
+}
+
+.menu {
+    
+}
+
+nav {
+
+
+}
+header ul {
+    display: flex;
+    list-style-type: none;
+}
+
+header li {
+    margin-right: .75rem;
+}
+
+header a{
+    text-decoration: none;
+    text-shadow: 2px;
+    color: aliceblue;
+}
+
+header a:link {
+
+  }
+
+header a:hover {
+    color: aqua;
+  }
+  
+ 
+header a:active {
+    color: rgb(229, 229, 229);
+  }
+
+
+/* Body */
+
+.main_title {
+        text-align: center;
+    
+    
+}
+
+
+
+footer {
+    background-color: rgb(36, 36, 153);
+    color: aliceblue;      
+}

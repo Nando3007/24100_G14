@@ -1,0 +1,68 @@
+Hacer un commit en GitHub implica guardar los cambios realizados en un repositorio local y luego enviar esos cambios al repositorio remoto en GitHub. Aquí te explico cómo hacer un commit:
+
+Configura tu repositorio local:
+----------------------------------
+Si ya tienes un repositorio en GitHub y quieres trabajar con él en tu máquina local, primero debes clonarlo usando el siguiente comando en la terminal:
+
+git clone <URL-del-repositorio>
+
+Si estás trabajando en un repositorio local, asegúrate de estar en la rama correcta.
+
+
+
+Realiza los cambios:
+-------------------------
+Modifica los archivos de tu proyecto según sea necesario.
+
+
+Verifica los cambios:
+--------------------------
+Puedes verificar los cambios que has realizado con el siguiente comando:
+
+git status   
+
+
+Prepara los archivos para el commit:
+------------------------------------
+Añade los archivos que quieres incluir en el commit con el siguiente comando:
+
+git add <archivo>   # Añade un archivo específico
+git add .           # Añade todos los archivos modificados en el directorio actual
+
+
+Haz un commit:
+-------------------------------
+Una vez que has preparado los archivos, puedes hacer un commit con el siguiente comando:
+
+git commit -m "Mensaje del commit"
+
+El mensaje del commit debe describir los cambios que has realizado.
+
+
+Envía los cambios al repositorio remoto:
+---------------------------------------------
+Después de hacer el commit, puedes enviar los cambios a GitHub usando el siguiente comando:
+
+git push origin main
+
+
+Por lo general, <nombre-de-la-rama> será main o master si estás trabajando en la rama principal
+
+
+
+
+…or create a new repository on the command line
+--------------------------------------------------
+echo "# 24100_jfs" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/TucuCoder/24100_jfs.git
+git push -u origin main
+
+…or push an existing repository from the command line
+--------------------------------------------------------
+git remote add origin https://github.com/TucuCoder/24100_jfs.git
+git branch -M main
+git push -u origin main
